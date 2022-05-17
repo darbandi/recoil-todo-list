@@ -12,10 +12,7 @@ const Container = styled.div`
 export const Heading: React.FC = () => {
     return (
         <Container>
-            <span role="img" aria-label="Taskhero logo">
-                🦸‍♂️
-            </span>{' '}
-            Taskhero
+            <span role="img" aria-label="Recoil Todo-List logo"></span> Recoil Todo-List
         </Container>
     )
 }
